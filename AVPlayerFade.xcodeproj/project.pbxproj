@@ -13,6 +13,7 @@
 		943BC87124764A7400249743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943BC86F24764A7400249743 /* Main.storyboard */; };
 		943BC87324764A7600249743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943BC87224764A7600249743 /* Assets.xcassets */; };
 		943BC87624764A7600249743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943BC87424764A7600249743 /* LaunchScreen.storyboard */; };
+		94BB669D247693EF00B79C21 /* AVPlayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB669C247693EF00B79C21 /* AVPlayerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		943BC87224764A7600249743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		943BC87524764A7600249743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		943BC87724764A7600249743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94BB669C247693EF00B79C21 /* AVPlayerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				943BC86924764A7400249743 /* AppDelegate.swift */,
 				943BC86B24764A7400249743 /* SceneDelegate.swift */,
 				943BC86D24764A7400249743 /* ViewController.swift */,
+				94BB669C247693EF00B79C21 /* AVPlayerExtensions.swift */,
 				943BC86F24764A7400249743 /* Main.storyboard */,
 				943BC87224764A7600249743 /* Assets.xcassets */,
 				943BC87424764A7600249743 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				943BC86E24764A7400249743 /* ViewController.swift in Sources */,
 				943BC86A24764A7400249743 /* AppDelegate.swift in Sources */,
 				943BC86C24764A7400249743 /* SceneDelegate.swift in Sources */,
+				94BB669D247693EF00B79C21 /* AVPlayerExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

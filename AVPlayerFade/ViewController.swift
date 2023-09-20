@@ -22,14 +22,16 @@ class ViewController: UIViewController {
     
     private func setupPlayer() {
         // Setup player
-        let url = URL(string: "https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3")!
+        guard let url = Bundle.main.url(forResource: "sample", withExtension: "mp3") else { return }
         let item = AVPlayerItem(url: url)
         player.replaceCurrentItem(with: item)
         player.volume = 0
         player.play()
         
         // Fade player volume from 0 to 1 in 5 seconds
-        fadeTimer = player.fadeVolume(from: 0, to: 1, duration: 5)
+        fadeTimer = player.fadeInVolume(from: 0, to: 1, duration: 5)
+        // or
+        // fadeTimer = player.fadeOutVolume(from: 1, to: 0, duration: 5)
     }
 
 }

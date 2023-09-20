@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78629A462ABB716F00A29C2A /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78629A452ABB716F00A29C2A /* sample.mp3 */; };
 		943BC86A24764A7400249743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943BC86924764A7400249743 /* AppDelegate.swift */; };
 		943BC86C24764A7400249743 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943BC86B24764A7400249743 /* SceneDelegate.swift */; };
 		943BC86E24764A7400249743 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943BC86D24764A7400249743 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78629A452ABB716F00A29C2A /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
 		943BC86624764A7400249743 /* AVPlayerFade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerFade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		943BC86924764A7400249743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		943BC86B24764A7400249743 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				943BC86B24764A7400249743 /* SceneDelegate.swift */,
 				943BC86D24764A7400249743 /* ViewController.swift */,
 				94BB669C247693EF00B79C21 /* AVPlayerExtensions.swift */,
+				78629A452ABB716F00A29C2A /* sample.mp3 */,
 				943BC86F24764A7400249743 /* Main.storyboard */,
 				943BC87224764A7600249743 /* Assets.xcassets */,
 				943BC87424764A7600249743 /* LaunchScreen.storyboard */,
@@ -130,6 +133,7 @@
 			files = (
 				943BC87624764A7600249743 /* LaunchScreen.storyboard in Resources */,
 				943BC87324764A7600249743 /* Assets.xcassets in Resources */,
+				78629A462ABB716F00A29C2A /* sample.mp3 in Resources */,
 				943BC87124764A7400249743 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
